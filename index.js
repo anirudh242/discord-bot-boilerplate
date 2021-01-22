@@ -55,4 +55,4 @@ client.on('message', (message) => {
   }
 });
 
-client.login('NzkzNzE5NTI0MjI2MzY3NTEy.X-wW6Q.WGbDD_NAAP5qho5D49i_7M6KtwQ'); // Put your token in a string. You can also use a .env file and write process.env.TOKEN
+client.login('Your token'); // Put your token in a string. You can also use a .env file and write process.env.TOKEN
