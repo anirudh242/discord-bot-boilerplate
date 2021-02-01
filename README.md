@@ -24,10 +24,10 @@ module.exports = {
 ```
 
 # How to use environmental variables
-1) Uncomment the first to lines of `index.ts`
+1) Uncomment the first 2 lines of `index.ts`
 2) Make a `.env` file
 3) Write this:
 ```env
 TOKEN='your token'
 ```
-4) At the bottom of the file, in `client.login()`, instead replace your token with `process.env.TOKEN`
+4) At the bottom of the file, in `client.login()`, replace your token with `process.env.TOKEN`
