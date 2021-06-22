@@ -24,7 +24,7 @@ module.exports = {
 ```
 
 # How to use environmental variables
-1) Uncomment the first 2 lines of `index.ts`
+1) Uncomment the first 2 lines of `index.js`
 2) Make a `.env` file
 3) Write this:
 ```env
