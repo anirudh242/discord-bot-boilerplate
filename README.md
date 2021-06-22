@@ -11,7 +11,7 @@ A simple and easy to use boilerplate to get you started with making your Discord
           client.commands.get('command').execute(message, args);
           break;
 ```
-2) Make a new file in `./commands`. For this example, we'll make `commands.js`.
+2) Make a new file in `./commands`. For this example, we'll make `command.js`.
 3) Write this:
 ```js
 module.exports = {
@@ -31,3 +31,7 @@ module.exports = {
 TOKEN='your token'
 ```
 4) At the bottom of the file, in `client.login()`, replace your token with `process.env.TOKEN`
+# How to run
+1) Open your preferred terminal
+2) Navigate to your source code directory
+3) Type `node .`
